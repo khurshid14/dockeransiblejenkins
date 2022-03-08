@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Hello World! </title>
+    <title>Successfull Deployed on the Docker-Server! </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
 <body>
   <div class="jumbotron" style="background-color:white">
       <img src="https://octodex.github.com/images/spidertocat.png" alt="Spidertocat"
            class="img-responsive center-block" style="width:250px"/>
-      <h2 class="text-center">Hello World! </h2>
+      <img src="C:\Users\Shahbaz Ahmad\OneDrive\Pictures\indranooyi-1583504527.jpg"
+           class="img-responsive center-block" style="width:250px"/>
+      <h2 class="text-center">Happy Women's Day! </h2>
       
   </div>
 </body>
