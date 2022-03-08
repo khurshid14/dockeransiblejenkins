@@ -10,28 +10,6 @@
       yum:
         name: docker
         state: present
-        
-    - name: Copy the files to index destination folder.
-         copy: >
-          src=/tmp/dockeransiblejenkins/index1.html
-          dest=/var/www/html/index1.html
-          owner=root
-          group=root
-          mode=0644
-    - name: Copy the style files to destination folder.
-         copy: >
-          src=/tmp/dockeransiblejenkins/style.css
-          dest=/var/www/html/style.css
-          owner=root
-          group=root
-          mode=0644
-    - name: Copy the javascript files to destination folder.
-         copy: >
-          src=/tmp/dockeransiblejenkins/scorekeeper.js
-          dest=/var/www/html/scorekeeper.js
-          owner=root
-          group=root
-          mode=0644    
     - name: start docker
       service:
         name: docker
