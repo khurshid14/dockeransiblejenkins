@@ -1,30 +1,16 @@
 <!DOCTYPE html>
-<html>
- <title>Maven Project</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World! </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+</head>
 <body>
-<h1>Welcome To WEB project</h1>
-</body>
-<body style="color:pink;">
- <div class="container">
-    <label for="uname"><strong>Username   </strong></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-<br></br>
-    <label for="psw"><strong>Password    </strong></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-<br></br>
-   <button type="submit">Login</button>
-<style>
-h1
-{
-  color:green;
-  text-align:center;
-}
-h5
-{
-  text-align: justify;
-}
-</style>
+  <div class="jumbotron" style="background-color:white">
+      <img src="https://octodex.github.com/images/spidertocat.png" alt="Spidertocat"
+           class="img-responsive center-block" style="width:250px"/>
+      <h2 class="text-center">Hello World! </h2>
+      
   </div>
 </body>
 </html>
-
